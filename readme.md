@@ -288,5 +288,144 @@ En las clases de los elementos se añaden cosas como:
 
 ------------
 
+### Cambiando las propiedades de la tipografía
+
+Se puede cambiar:
+
+- Tipo de letra.
+- Tamaño.
+- Cursiva y negrita.
+
+Se aplican clases como:
+
+`text-3xl font-sans font-light`
+
+Se puede consultar la documentación en:
+
+https://tailwindcss.com/docs/font-family/#app
+https://tailwindcss.com/docs/font-weight/#app
+https://tailwindcss.com/docs/font-size/#app
+
+
+------------
+
+### AJUSTANDO EL ESPACIADO ENTRE LETRAS Y LINEAS
+
+Margen entre letras
+
+- tracking-tight /Letras juntas
+- tracking-tighter /Letras muy juntas
+- tracking-wide /Letras separadas
+- tracking-widest /Letras muy separadas
+
+Margen entre lineas
+
+- leading-tight /Lineas juntas
+- leading-snug /Lineas juntas (un poco mas separadas que leading-tight)
+- leading-relaxed /Lineas separadas
+- leading-loose /Lineas separadas (un poco mas que leading-relaxed)
+
+Alineacion
+
+- text-left /Alineado a la Izquierda
+- text-right /Alineado a la Derecha
+- text-center /Alineación al centro
+- text-justify /Texto justificado
+- line-through /Tachar texto
+- underline /Subrayar texto
+- no-underline /Sin subrayar (quita el subrayado)
+- uppercase /Letras en mayusculas
+- capitalized /Primera letra de cada palabra en mayuscula
+- lowercase /Letras en minuscula
+
+
+------------
+
+### Display
+
+Las propiedades de display son útiles para poder controlar las dimensiones o espacios. Las propiedades básicas de display son:
+
+**Block** → Con esta configuración los bloques abarcan toda la pantalla.
+
+	<div class="text-center">
+			<div class="block bg-blue-800">1</div>
+		<div class="block bg-blue-500">2</div>
+		<div class="block bg-blue-300">3</div>
+	</div>
+
+**Inline-block **→ Sólo ocupan el espacio necesario para mostrar lo que hay en su interior.
+
+	<div class="text-center">
+			<div class="inline-block bg-blue-800">1</div>
+		<div class="inline-block bg-blue-500">2</div>
+		<div class="inline-block bg-blue-300">3</div>
+	</div>
+
+**Inline **→ Sólo ocupan el espacio necesario para mostrar lo que hay en su interior y la altura del elemento es indiferente.
+
+	<div class="text-center">
+			<div class="inline bg-blue-800">1</div>
+		<div class="inline bg-blue-500">2</div>
+		<div class="inline bg-blue-300">3</div>
+	</div>
+	
+
+**Hidden** → El elemento en cuestión no se muestra.
+
+	<div>
+		<div class="inline-block bg-blue-800">1</div>
+		<div class="inline-block bg-blue-500">2</div>
+		<div class="hidden bg-blue-300">3</div>
+		<div class="inline-block bg-blue-100">4</div>
+	</div>
+
+
+------------
+### FLEX
+
+Flex es otra propiedad de display pero nos habilita otras propiedades para manipular nuestras cajas. Las propiedades propias de flexbox son:
+
+Flex direction
+
+	<div class="flex flex-col">
+		<div class="bg-blue-300">1</div>
+		<div class="bg-blue-300">2</div>
+		<div class="bg-blue-300">3</div>
+	</div>
+
+Align items
+
+	<div class="flex items-center">
+		<div class="bg-blue-300">1</div>
+		<div class="bg-blue-300">2</div>
+		<div class="bg-blue-300">3</div>
+	</div>
+
+<img src="https://static.platzi.com/media/user_upload/11-Align%20Items-2c5aa1e0-dfe0-491f-a969-69c4d23966f6.jpg" alt="align items">
+
+Justify content
+
+	<div class="flex justify-center">
+		<div class="bg-blue-300">1</div>
+		<div class="bg-blue-300">2</div>
+		<div class="bg-blue-300">3</div>
+	</div>
+
+<img src="https://static.platzi.com/media/user_upload/11-Justify-67e046f7-e7cd-446c-8adb-5ca9180fc724.jpg" alt="justify-content">
+
+Order
+
+	<div class="flex justify-center items-center">
+		<div class="order-3 bg-blue-300">1</div>
+		<div class="order-1 bg-blue-300">2</div>
+		<div class="order-2 bg-blue-300">3</div>
+	</div>
+
+
+
+------------
+
 
 [========]
+
+
