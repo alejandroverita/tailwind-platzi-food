@@ -510,6 +510,96 @@ En la consola
 
 ------------
 
+### FOOTER
+
+    <!-- FOOTER -->
+    
+        <footer class="absolute lg:flex-row-reverse md:items-center lg:flex lg:justify-between bottom-0 w-full text-white bg-secondary"> <!-- absolute bottom-0 para que se vaya hasta el final y w-full para que ocupe todo el ancho -->
+            <div >
+                <ul class="mt-4 md:mb-4 flex justify-center items-center">
+                    <li class="mx-2 hover:text-primary cursor-pointer transition ease-out duration-200"> <i class="fa fa-facebook"> </i> Facebook</li>
+    
+                    <li class="mx-2 hover:text-primary cursor-pointer transition ease-out duration-200"> <i class="fa fa-instagram"></i> Instagram</li>
+    
+                    <li class="mx-2 hover:text-primary cursor-pointer transition ease-out duration-200"> <i class="fa fa-youtube"></i> Youtube</li>
+                </ul>
+    
+                <div class="mt-4 mb-4" >
+                    <ul class="flex justify-center items-center"><!-- list disc es para agregar las viñetas solo en medium -->
+                        <li class="mx-2">Soporte</li>
+                        <li class="mx-2">Acerca de </li>
+                        <li class="mx-2">Registro</li>
+                        <li class="mx-2">Privacidad</li>
+                    </ul>
+    
+                </div>
+            </div>
+        </footer>
+		
+
+
+<img src="https://static.platzi.com/media/user_upload/header.html-47396ae2-1b8e-4ad6-937f-a3f14278f20b.jpg" alt="footer">
+
+------------
+
+
+### MAIN SECTION 
+
+
+```
+ <main>
+        <div class="h-56 md:h-100 md:bg-center bg-no-repeat bg-cover" style="background-image: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80');">
+        </div>
+    </main>
+```
+
+------------
+
+### INTEGRAR UNA CARD
+
+     <!-- CARD -->
+            <div class="container mx-auto md:flex">
+    
+                <div class= "mx-2 mt-4 rounded-lg md:mx-auto md:w-5/12 md:flex md:justify-around md:flex-wrap md:bg-white">
+                    <div>
+                        <img class="md:h-full object-cover md:w-48 rounded-lg md:rounded-r-none" src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80" alt="Hamburger"> <!-- object cover para que ocupe la imagen todo el espacio en vertical -->
+                    </div>
+            
+                    <div class="relative shadow-lg mx-2 p-2 bg-white rounded-lg -mt-2 md:bg-transparent"> <!-- relative para colocarlo encima, shadow para aplicar efecto de sombra p de padding, mx-2 para que haya una separacion con los bordes  -->
+                        <h2 class="flex justify-center text-xl tracking-tight uppercase font-semibold text-gray-900 md:text-lg">Hamburger Cheese</h2>
+                        <p class="text-gray-700 leading-snug"> Hamburguesa de queso con champiñones y carne</p> <!-- con leading snug se lo junta un poquito con el titulo  -->
+                        <div class="mt-2 text-sm font-semibold text-gray-700"> $2.50 USD </div>
+            
+                        <!-- agregar estrellas -->
+                        <div class=" mt-2 text-xs text-yellow-700"> &starf; &starf; &starf; &starf; &star; / 36 reseñas </div>
+                    </div>
+                </div>
+    
+                <!-- SECOND CARD -->
+    
+                <div class= "mx-2 mt-4 rounded-lg md:mx-auto md:w-5/12 md:flex md:justify-around md:flex-wrap md:bg-white">
+                    <div>
+                        <img class="md:h-full object-cover md:w-48 rounded-lg md:rounded-r-none" src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80" alt="Hamburger"> <!-- object cover para que ocupe la imagen todo el espacio en vertical -->
+                    </div>
+            
+                    <div class="relative shadow-lg mx-2 p-2 bg-white rounded-lg -mt-2 md:bg-transparent"> <!-- relative para colocarlo encima, shadow para aplicar efecto de sombra p de padding, mx-2 para que haya una separacion con los bordes  -->
+                        <h2 class="flex justify-center text-xl tracking-tight uppercase font-semibold text-gray-900 md:text-lg">Hamburger Cheese</h2>
+                        <p class="text-gray-700 leading-snug"> Hamburguesa de queso con champiñones y carne</p> <!-- con leading snug se lo junta un poquito con el titulo  -->
+                        <div class="mt-2 text-sm font-semibold text-gray-700"> $2.50 USD </div>
+            
+                        <!-- agregar estrellas -->
+                        <div class=" mt-2 text-xs text-yellow-700"> &starf; &starf; &starf; &starf; &star; / 36 reseñas </div>
+                    </div>
+                </div>
+    
+            </div>
+
+
+<img src="https://static.platzi.com/media/user_upload/cards-d3c4193a-51ff-452f-92c1-d8b2c3e57927.jpg" alt="cards">
+
+
+------------
+
 
 
 [========]
