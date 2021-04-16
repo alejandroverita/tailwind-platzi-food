@@ -473,6 +473,43 @@ Esto indicara al navegador que solo aplique los estilos en tablet cuando tenga e
 
 
 
+### HEADER
+
+En el archivo tailwind.config.js
+
+	 extend: {
+
+		  colors: {
+			'primary': '#f3c614',
+			'secondary': '#353535'
+		  },
+
+Crear archivo header.html
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Header</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="px-2 bg-secondary text-white flex justify-between item-center">
+            <div><img class="py-1 h-8" src="./images/logo.svg" alt="logo">
+            </div>
+            <div class="text-2xl">&equiv;</div>
+        </header>
+    </body>
+    </html>
+
+En la consola
+
+`npm run build `
+
+------------
+
 
 
 [========]
