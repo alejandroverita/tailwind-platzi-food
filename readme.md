@@ -600,6 +600,37 @@ En la consola
 
 ------------
 
+### FORMS
+
+     <!-- FORMS -->
+            <form class="mx-2">
+                <div>
+                    <div>Nombre</div>
+                    <input class="w-full leading-snug text-gray-500 py-1 px-4 rounded border border-blue-300 bg-gray-200 placeholder-secondary hover:bg-white focus:outline-none focus:shadow-outline" type="text" placeholder="Nombre"><!-- leading snug controla el espacio entre lineas -->
+                </div>
+                <div>
+                    <div>Email</div>
+                    <input class="w-full leading-snug text-gray-500 py-1 px-4 rounded border border-blue-300 bg-gray-200 placeholder-secondary hover:bg-white focus:outline-none focus:shadow-outline" type="email" placeholder="Email"><!-- leading snug controla el espacio entre lineas -->
+                </div>
+                <div>
+                    <div>Comentarios</div>
+                    <textarea class="w-full leading-snug text-gray-500 py-1 px-4 rounded border border-blue-300 bg-gray-200 placeholder-secondary hover:bg-white  focus:outline-none focus:shadow-outline" name="" id="" cols="30" rows="10">
+                    </textarea>
+                </div>
+    
+                <div>
+                    <button class="rounded shadow-xl py-1 px-4 bg-gray-400 mx-auto block hover:shadow-none hover:bg-gray-700 hover:text-white">
+                        Enviar 
+                    </button>
+                </div>
+            </form>
+
+
+<img src="https://static.platzi.com/media/user_upload/forms-b58a67d9-f4ed-4725-99ce-1faa4b6689d3.jpg" alt="forms">
+
+
+------------
+
 
 
 [========]
