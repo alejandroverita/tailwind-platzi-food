@@ -631,7 +631,37 @@ En la consola
 
 ------------
 
+### OPTIMIZAR EL ARCHIVO
 
+Archivo `postcss.config.js`
+
+    const purgecss = require('@fullhuman/postcss-purgecss');
+    
+    module.exports = { 
+        plugins: [
+            require('tailwindcss'), 
+            require('autoprefixer'),
+            purgecss({
+                content: ['./**/*.html'],
+                //Para agregar soporte para otro tipo de archivos.
+                // './**/*.js',
+                // './**/*.vue'
+                
+                //IMPORTANTE: Para soportar pseudo-clases
+                defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
+                }),
+                require('cssnano')({
+                    preset: 'default',
+                
+                }),
+        ],
+    
+    };
+	
+
+<img src="https://static.platzi.com/media/user_upload/tailwindcss-cheatsheet-10bb55c6-cb12-49bc-871c-ada2ea2d2f0f.jpg" alt="cheat sheet">
+
+[Cheat Sheet](https://nerdcave.com/tailwind-cheat-sheet "Cheat Sheet")
 
 [========]
 
