@@ -1,5 +1,15 @@
 @tailwind base; 
 
-@tailwind components; 
+@tailwind components;
 
 @tailwind utilities;
+
+@layer components {
+    .form-control {
+        @apply w-full leading-snug text-gray-800 py-1 px-4 rounded border border-blue-300 bg-gray-200 hover:bg-white focus:ring-none focus:ring;
+    }
+
+    .button {
+        @apply rounded shadow-xl py-1 px-4 bg-gray-400 mx-auto block hover:shadow-none hover:bg-gray-700 hover:text-white;
+    }
+}
